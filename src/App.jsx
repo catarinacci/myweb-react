@@ -4,6 +4,7 @@ import React from "react";
 import Texto from "./components/texto";
 import Contador from "./components/contador";
 import ListaNombres from "./components/listaNombres";
+import Pokemones from "./components/pokemones";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Texto nombre="angel" apellido="rodriguez" edad={40} />
       <Contador/>
       <ListaNombres/>
+      <Pokemones/>
     </div>
   )
 };

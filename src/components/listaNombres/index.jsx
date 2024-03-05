@@ -7,8 +7,9 @@ export default function ListaNombres() {
 
   const guardar = () => {
     setNombres([...nombres,nombre]);
-    setNombre("");
     //console.log(nombres)
+    setNombre("");
+    
   }
 
   return (
